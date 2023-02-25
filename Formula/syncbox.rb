@@ -1,8 +1,8 @@
 class Syncbox < Formula
     desc ""
     homepage ""
-    url "https://github.com/romanschejbal/syncbox/archive/refs/tags/v0.3.1.tar.gz"
-    sha256 "8ba7272291c86330f30865bf826e27e78e008634eb27eea617521dc40db4c4db"
+    url "https://github.com/romanschejbal/syncbox/archive/refs/tags/v0.4.0.tar.gz"
+    sha256 "106e6659b24ce8365f5da384b6786d68800a5ce1ed4301b776b347add4780d72"
     license "MIT"
 
     depends_on "rust" => :build
