@@ -1,14 +1,12 @@
 class Syncbox < Formula
-    desc ""
-    homepage ""
-    url "https://github.com/romanschejbal/syncbox/archive/refs/tags/v0.4.0.tar.gz"
-    sha256 "106e6659b24ce8365f5da384b6786d68800a5ce1ed4301b776b347add4780d72"
+    desc "Sync files and directories to various endpoints."
+    homepage "https://github.com/romanschejbal/syncbox"
+    url "https://github.com/romanschejbal/syncbox/releases/download/v0.5.0/aarch64-apple-darwin.zip"
+    sha256 "594a31bda0371f2b42c5a7af06c28081c1ffc406068b3832406778c0de0c8f2e"
     license "MIT"
 
-    depends_on "rust" => :build
-
     def install
-      system "cargo", "install", *std_cargo_args
+      bin.install "syncbox"
     end
 
     test do
