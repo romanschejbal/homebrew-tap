@@ -1,8 +1,8 @@
 class Syncbox < Formula
     desc "Sync files and directories to various endpoints."
     homepage "https://github.com/romanschejbal/syncbox"
-    url "https://github.com/romanschejbal/syncbox/releases/download/v0.5.3/aarch64-apple-darwin.zip"
-    sha256 "ee04679a53a8bbb5d3f99656af7a430b294f3f9464a1b2fd2b15c687d842bced"
+    url "https://github.com/romanschejbal/syncbox/releases/download/v0.5.6/aarch64-apple-darwin.zip"
+    sha256 "c55ddc96d4bb11d60b376433ce902b75427f9c6371bdef57a67fe2c06b5f973f"
     license "MIT"
 
     def install
